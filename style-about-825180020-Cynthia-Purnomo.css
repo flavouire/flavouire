@@ -1,0 +1,423 @@
+* {padding: 0; 
+	margin: 0; 
+}
+
+body {
+	background: white;
+	width: 1345px;
+}
+
+header {
+	height: 100px;
+}
+
+/* menu */
+.bg-nav img {
+	float: left;
+	position: relative;
+	margin: 10 15 15 20;
+	margin-left: 130px;
+}
+
+.bg-nav {
+	overflow: hidden;
+}
+
+nav {
+	position: relative; 
+	color: black;
+	height: 35px;
+	line-height: 35px;
+	font-family: Calibri;
+	float: right;
+	width: 700px;
+	margin-top: 25px;
+	text-decoration: none;
+}
+
+nav ul li {
+	float: left;
+	list-style: none; 
+	text-align: center;
+}
+
+nav ul li a {
+	margin-right: 20px;
+	text-decoration: none;
+	padding: 3px 20px;
+	color: black;
+}
+
+nav ul li ul {
+	display: none;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav ul li a:hover {
+	color: sandybrown; 
+}
+
+nav ul li a:active {
+	color: black;
+}
+
+nav ul li ul {
+	position: absolute;
+	
+}
+
+nav ul li ul li {
+	float: none;
+	position: relative;
+	text-align: center;
+	padding-left: 18px;
+}
+
+nav ul ul ul {
+	left: 100%;
+	width: 140px;
+	top: 0;
+}
+
+.container {
+	width: 100%;
+	border-top: 2px solid black;
+	background: #eacda3;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 500px;
+}
+
+.kiri {
+	float: left;
+	width: 45%;
+}
+
+.kiri img {
+	padding-left: 60px;
+	padding-top: 50px;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+
+.kanan {
+	font-family: montserrat;
+	float: right;
+	width: 45%;
+	padding-right: 40px;
+	padding-top: 50px;
+}
+
+.kanan h1 {
+	font-size: 25px;
+}
+
+.kanan h2{
+	font-family: montserrat;
+	font-size: 18px;
+	padding-bottom: 10px;
+	padding-top: 7px;
+}
+
+.kanan h3 {
+	color: white;
+	font-size: 32px;
+	padding-bottom: 20px;
+}
+
+.kanan p {
+	font-family: calibri;
+	font-size: 18px;
+	padding-top: 5px;
+}
+
+.container2 {
+	height: 350px;
+	background: #D49D6A;
+	border-top: 2px solid black;	
+	border-bottom: 2px solid black;
+	font-family: montserrat; 
+}
+
+.kiri2 {
+	float: left;
+	width: 45%;
+	padding-left: 60px;
+	margin-top: 40px;
+}
+
+.kiri2 h1 {
+	font-size: 25px;
+}
+
+.kiri2 h2{
+	font-family: montserrat;
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+
+.kiri2 h3 {
+	color: white;
+	font-size: 32px;
+	padding-bottom: 20px;
+}
+
+.kiri2 p {
+	font-family: calibri;
+	font-size: 18px;
+}
+
+.transition1 {
+	margin-top: 40px;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	font-family: Calibri;
+	background: #e07b39;
+	border-radius: 10px;
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	color: white; 
+}
+
+.transition1:hover {
+ 	background: #f0932b;
+	color: white; 
+	-webkit-transition: background 2s ease;
+	-moz-transition: background 2s ease;
+	-ms-transition: background 2s ease;
+	-o-transition: background 2s ease;
+	transition: background 2s ease;
+}
+
+.kanan2 {
+	float: right;
+	width: 45%;
+	margin-top: 20px;
+}
+
+.container3 {
+	height: 170px;
+	background: #D1913C;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #FFD194, #D1913C);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #FFD194, #D1913C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-bottom: 2px solid black;
+}
+
+.kiri3 {
+	width: 65%;
+	margin-left: 60px;
+}
+
+.kiri3 h1 {
+	padding-top: 30px;
+	font-family: montserrat;
+	font-size: 40px;
+}
+
+.kiri3 h2 {
+	font-family: montserrat;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.kanan3 {
+	width: 25%;
+	float: right;
+}
+
+.container4 {
+	background: #1e130c;
+	height: 350px;
+}
+
+.kiri4 {
+	float: left;
+	width: 40%;
+	color: white;
+	margin-top: 70px;
+	margin-left: 60px;
+}
+
+.kiri4 h1 {
+	font-family: montserrat;
+	font-size: 28px;
+}
+
+.kiri4 h2 {
+	font-size: 36px;
+	font-weight: bolder;
+	color: #eacda3;
+}
+
+.kiri4 h3 {
+	font-size: 26px;
+	padding-top: 30px;
+	font-family: calibri;
+}
+
+.kiri4 p {
+	font-family: calibri;
+	padding-top: 10px;
+}
+.kanan4 {
+	width: 600px;
+	float: right;
+}
+.transition2 {
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	font-family: Calibri;
+	background: #F2994A;
+	border-radius: 10px;
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	color: black; 
+	margin-top: -65px;
+	margin-left: 40px;
+}
+
+.transition2:hover {
+ 	background: #FDC830;
+	color: black; 
+	-webkit-transition: background 2s ease;
+	-moz-transition: background 2s ease;
+	-ms-transition: background 2s ease;
+	-o-transition: background 2s ease;
+	transition: background 2s ease;
+}
+
+.container5 {
+	height: 440px;
+	background: #fdd998;
+	border-bottom: 2px solid black;
+}
+
+.kiri5 {
+	width: 450px;
+	float: left;
+	margin-top: 40px;
+	padding-left: 60px;
+}
+
+.kiri5 h1 {
+	font-size: 25px;
+	font-family: montserrat;
+}
+
+.kiri5 h2{
+	font-family: montserrat;
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+
+.kiri5 h3 {
+	color: #df8543;
+	font-size: 32px;
+	padding-bottom: 20px;
+}
+
+.kiri5 p {
+	font-family: calibri; 
+}
+
+.kanan5 {
+	width: 800px;
+	float: right;
+	margin-top: 40px;
+}
+
+.kanan5 h1 {
+	font-size: 25px;
+	font-family: montserrat;
+}
+
+.kanan5 h2{
+	font-family: montserrat;
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+
+.kanan5 h3 {
+	color: #df8543;
+	font-size: 32px;
+	padding-bottom: 20px;
+}
+
+table {
+	width: 760px;
+}
+
+thead {
+	background: #f6d186;
+	color: black;	
+	font-family: calibri;
+}
+
+tbody {
+	background-color: #ffbd69;
+}
+
+th,td {
+	padding:4px 25px;
+}
+
+td {
+	color: black;
+	font-family: calibri;
+	text-align: justify;
+}
+
+footer {
+	height: 40px;
+	background: #eea849;
+}
+
+.bawah {
+	text-align: center;
+	font-family: montserrat;
+	padding-top: 20px;
+	font-size: 16px;
+  	position: relative;
+	background: #eea849;
+	padding-bottom: 20px;
+}
+
+.bawah .tooltiptext {
+  	visibility: hidden;
+  	width: 250px;
+  	background-color: sandybrown;
+  	color: white;
+  	text-align: center;
+  	border-radius: 6px;
+  	padding: 5px 0;
+  	position: absolute;
+  	z-index: 1;
+  	bottom: 125%;
+  	left: 50%;
+  	margin-left: -120px;
+  	opacity: 0;
+  	transition: opacity 0.3s;
+}
+
+.bawah .tooltiptext::after {
+  	content: "";
+  	position: absolute;
+  	top: 100%;
+  	left: 50%;
+  	margin-left: -5px;
+  	border-width: 5px;
+  	border-style: solid;
+  	border-color: sandybrown transparent transparent transparent;
+}
+
+.bawah:hover .tooltiptext {
+  	visibility: visible;
+  	opacity: 1;
+}
